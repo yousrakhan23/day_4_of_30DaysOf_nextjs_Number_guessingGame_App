@@ -1,11 +1,11 @@
-"use client"; // Enables client-side rendering for this component
+"use client"; 
 
-// Importing necessary hooks and components from React and custom components
+
 import { useState, useEffect, ChangeEvent } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 
-// Type definition for the NumberGuessingComponent's state
+
 interface NumberGuessingState {
   gameStarted: boolean;
   gameOver: boolean;
